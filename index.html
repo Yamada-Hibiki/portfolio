@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>YamadaHibiki Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" 
+        crossorigin="anonymous" />  
+        
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" 
+        rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <!-- <div class="logo"> 
+                <img src="img/devjane.png" alt="logo">  
+            </div> -->
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hello, I am <strong><span class="shine">Yamada Hibiki</shine></strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Student in M1 MIAGE</p>
+            <img src="img/myphototop.jpeg" alt="main pic of myself" 
+            class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+
+                <div class="service">
+                    <h3>Web Development</h3>
+                    <p>I have got solid knowledge of web development. I have already created some 
+                       websites using HTML, CSS and JavaScript. I developed this portfolio website by myself as well. 
+                       During the summer of 2022, I worked for an Indian company, Pinkcity Artisans, as a web 
+                       developer intern using WordPress for 4 months.
+                    </p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Python Development</h3>
+                    <p>I am passionate about back-end development, especially machine learning and 
+                       software development using Python. Besides my studies, I personally worked on some Python 
+                       projects, such as basic projects to understand object-oriented programming, a password 
+                       manager, and machine learning projects using Numpy, Tensorflow, and Pytorch.
+                       I participated in a programming competition, Hackathon, held in October 2021.
+                    </p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Algorithms and Data Structures</h3>
+                    <p>I am also interested in algorithms and data structures. I find it really important 
+                       to understand in order to work on back-end development. I am currently taking an 
+                       online paid course on Algoexpert.com to understand more about algorithms and data structures. 
+                       I use Python to solve algorithm problems. 
+                    </p>
+                </div> 
+            </div> <!-- / services -->
+        
+            <a href="documents/Hibiki_YAMADA_CV.pdf" target="_blank" download="Hibiki_YAMADA_CV" class="btn">Download my CV</a>
+        </section>
+              
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Japanese student studying Computer Science</p>
+           
+           <div class="about-me__body">
+                <p>
+                    At the moment, I am enrolled in M1 Miage Ingénierie Métier at Université Toulouse Capitole 1. I am 
+                    passionate about Python development, especially about machine learning. I got LinkedIn Skill Python 
+                    Assessement badge and my result was in the top 5% of 3.7 million people who took it. In 2022, I worked 
+                    for an Indian company as web a developer intern for 4 months. I learned how to develop websites using HTML, 
+                    CSS, and WordPress.
+                </p>
+                <p>
+                    It has been 6 years since I lived in France and I am already used to French culture. In 2021 I received 
+                    my French language certificate: Diplôme de français professional des Affaires niveau C1. I went to an international 
+                    high school in France and I also received my English certificate: Cambridge Assessment English B2 level.
+                </p>
+                <p>I am sporty, disciplined, and motivated. I am able to keep working so that I get better results.</p>
+           </div>
+           
+           <img src="img/myphotomiddle.jpeg" alt="me working out" class="about-me__img">
+        </section>
+        
+        <section class="my-work">
+            <h2 class="section__title section__title--work" id="work">MY PROJECTS</h2>
+            <p class="section__subtitle section__subtitle--work bigger">
+                Projects that I worked on in my spare time. 
+                <br>
+                Please click on the images to download the codes.
+            </p>
+            <br>
+
+            <div class="portfolio">
+
+                <div class="portfolio-div">
+                    <a class="portflio__item" href="documents/exo3.zip" download="hackathonex" class="portflio__item">
+                        <img src="img/hackathon.jpeg" alt="hackathon img" class="portfolio__img">
+                    </a>
+                    <br>
+                    <p class="section__subtitle section__subtitle--work--p">
+                        In October 2022, I participated in a programming competition, "Hackathon", held and organized by Ecole 42, situated 
+                        in Paris. The main subject of this competition was regarding solving problems of machine learning 
+                        using Python, especially Pytorch. The problems that we worked on were mainly with CNN, Convolutional Neural Network.
+                    </p>
+                </div>
+
+                <div class="portfolio-div">
+                    <a href="documents/pythonOPP.zip" download="pythonOPP" class="portflio__item">
+                        <img src="img/oop--2-.png" alt="pythonOOP img" class="portfolio__img">
+                    </a>
+                    <br>
+                    <p class="section__subtitle section__subtitle--work--p">
+                        Python is definitely a great language that supports object-oriented programming. In order to understand
+                        object-oriented programming deeply, I worked on some projects that allowed me to understand some complex
+                        concepts in OOP in Python. 
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="portfolio">
+                
+                <div class="portfolio-div">
+                    <a href="documents/tensorEnv.zip" download="tensorEnv" class="portflio__item">
+                        <img src="img/TensorFlow_logo.svg.png" alt="tensorflow img" class="portfolio__img">
+                    </a>
+                    <br>
+                    <p class="section__subtitle section__subtitle--work--p">
+                        I am especially interested in machine learning using Python. So I worked on some basic machine learning
+                        projects such as linear regression, K-nearest neighbors, support vector machines, and K-means clustering.
+                        I used Tensorflow as a library to work on these projects.
+                    </p>
+                </div>
+
+                <div class="portfolio-div">
+                    <a href="documents/MiniPythons.zip" download="MiniPythons" class="portflio__item">
+                        <img src="img/V1.jpg" alt="pythonimg" class="portfolio__img">
+                    </a>
+                    <br>
+                    <p class="section__subtitle section__subtitle--work--p">
+                        In this file there are 4 simple projects using Python that I worked on. The most interesting one will be the 
+                        Python programming that allows us to manage our passwords. A third party will need the encryption
+                        generated by Python to see user's passwords.
+                    </p>
+                </div>
+                
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="section__title section__title--work" id="work">MY CERTIFICATIONS</h2>
+            <p class="section__subtitle section__subtitle--work bigger">
+                My certifications and experience. 
+                <br>
+                Please click on the images to see the certificates.
+            </p>
+
+            <div class="portfolio">
+                
+                <div class="portfolio-div">
+                    <a href="documents/diplome_francais.pdf" download="diplome_francais" target="_blank" class="portflio__item">
+                        <img src="img/diplome_francais.jpg" alt="diplome_francais image" class="portfolio__img">
+                    </a>
+                    <br>
+                    <p class="section__subtitle section__subtitle--work--p">
+                        In August 2021, I obtained my French Diploma, diplôme de français professionel Affaires C1, delivered by
+                        Paris Ils-de-France Chamber of Commerce and Industry. This certificate shows that my French level is good 
+                        enough to be used in business situations.
+                    </p>
+                </div>
+
+                <div class="portfolio-div">
+                    <a href="documents/cambridge.pdf" download="cambridge" target="_blank" class="portflio__item">
+                        <img src="img/cambridge.png" alt="cambridge img" class="portfolio__img">
+                    </a>
+                    <br>
+                    <p class="section__subtitle section__subtitle--work--p">
+                        In February 2021, I obtained my English diploma, Cambridge assessment English B2 level. This is delivered by
+                        the University of Cambridge in the US. This certificate also shows that my English level is good enough 
+                        for working in a total English environment.
+                    </p>
+                </div>
+                
+            </div>
+
+            <div class="portfolio">
+
+                <div class="portfolio-div">
+                    <a href="documents/pythonlinkedin.pdf" download="python_linkedin" target="_blank" class="portflio__item">
+                        <img src="img/pythonlinkdin.png" alt="python linkedin" class="portfolio__img">
+                    </a>
+                    <br>
+                    <p class="section__subtitle section__subtitle--work--p">
+                        On the LinkedIn website, we can pass technical tests to get officially certificated by LinkedIn. I took a
+                        Python technical test and I obtained my Python certificate in October 2021. I was situated in the top 5%
+                        among the 3.7 million people who also passed that technical test.
+                    </p>
+                </div>
+                
+                <div class="portfolio-div">
+                    <a class="portflio__item">
+                        <img src="img/Capture d’écran 2022-10-06 141521.png" alt="websiteimg" target="_blank" class="portfolio__img">
+                    </a>
+                    <br>
+                    <p class="section__subtitle section__subtitle--work--p">
+                        Until the beginning of September in 2022, I worked for an Indian company, Pinkcity Artisans, as a developer 
+                        web intern for 4 months. This website is an E-commerce website that I developed using WordPress and 
+                        Elementor. This experience enabled me to create any kind of website using WordPress.
+                    </p>
+                </div>
+
+            </div>
+    
+        </section>
+   
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:yamadahibikipro@gmail.com" class="footer__link">yamadahibikipro@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/hibiki-yamada-4180661ba/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/Yamada-Hibiki" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+            <p class="thanks">Thanks to: </p>
+            <p class="thanks">My parents, my University school Université Toulouse Capitole 1, and dear friends</p>
+
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
